@@ -1,0 +1,15 @@
+<body>
+  <app-nav-menu></app-nav-menu>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  <table>
+    <tr *ngFor="let d of data">
+      <td>{{d.Date}}</td>
+      <td>{{d.TemperatureC}}</td>
+      <td>{{d.Summary}}</td>
+    </tr>
+
+  </table>
+ 
+</body>
